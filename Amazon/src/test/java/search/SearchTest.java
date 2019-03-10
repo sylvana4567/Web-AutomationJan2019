@@ -9,6 +9,6 @@ public class SearchTest extends CommonAPI{
 
     @Test
     public void search(){
-       typeOnWebElement("twotabsearchtextbox");
+       typeOnElement("twotabsearchtextbox", "books");
     }
 }
