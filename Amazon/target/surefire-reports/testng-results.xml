@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon Automation Script " duration-ms="10476" started-at="2019-03-10T21:13:49Z" finished-at="2019-03-10T21:13:59Z">
+    <groups>
+    </groups>
+    <test name="Amazon Home" duration-ms="10476" started-at="2019-03-10T21:13:49Z" finished-at="2019-03-10T21:13:59Z">
+      <class name="title.AmazonHome">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:title.AmazonHome@327471b5]" name="setUp" is-config="true" duration-ms="9664" started-at="2019-03-10T21:13:49Z" finished-at="2019-03-10T21:13:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:title.AmazonHome@327471b5]" name="test1" duration-ms="674" started-at="2019-03-10T21:13:58Z" finished-at="2019-03-10T21:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:title.AmazonHome@327471b5]" name="cleanUp" is-config="true" duration-ms="116" started-at="2019-03-10T21:13:59Z" finished-at="2019-03-10T21:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- title.AmazonHome -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Amazon Automation Script  -->
+</testng-results>
