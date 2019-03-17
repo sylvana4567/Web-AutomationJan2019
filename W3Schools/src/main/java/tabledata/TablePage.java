@@ -10,6 +10,7 @@ public class TablePage extends CommonAPI {
        List<String> dataList =  getTextFromWebElements(".w3-table-all.notranslate tr:nth-child(4) td:nth-child(4)");
        for(String st:dataList){
            System.out.println(st + " potential conflict");
+           System.out.println("pre conflict" + st);
        }
     }
 }
