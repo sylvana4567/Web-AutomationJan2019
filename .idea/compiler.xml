@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Generic" />
+        <module name="Pnt" />
+        <module name="W3Schools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Amazon" target="1.8" />
-      <module name="Generic" target="1.5" />
-      <module name="WebAutomationJanuary2019" target="1.5" />
+      <module name="Generic" target="8" />
+      <module name="Pnt" target="8" />
+      <module name="W3Schools" target="8" />
+      <module name="WebAutomationJanuary2019" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

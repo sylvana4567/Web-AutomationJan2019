@@ -11,6 +11,8 @@
     <modules>
         <module>Generic</module>
         <module>Amazon</module>
+        <module>W3Schools</module>
+        <module>Pnt</module>
     </modules>
 
 
@@ -31,6 +33,22 @@
                 <artifactId>selenium-java</artifactId>
                 <version>3.141.59</version>
             </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>6.0.6</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mongodb</groupId>
+                <artifactId>mongodb-driver</artifactId>
+                <version>3.4.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.poi</groupId>
+                <artifactId>poi</artifactId>
+                <version>3.17</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
