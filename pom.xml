@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>W3Schools</module>
+        <module>Pnt</module>
     </modules>
 
 
