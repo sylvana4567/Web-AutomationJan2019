@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import reporting.TestLogger;
 
 public class HandlePopUp {
 
@@ -26,6 +27,7 @@ public class HandlePopUp {
     }
 
     public void setScholarshipPopUpWindowCloseWebElement(WebElement scholarshipPopUpWindowCloseWebElement) {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         this.scholarshipPopUpWindowCloseWebElement = scholarshipPopUpWindowCloseWebElement;
     }
 
@@ -34,14 +36,17 @@ public class HandlePopUp {
         return value;
     }
     public void closePopUpWindow(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         setScholarshipPopUpWindowCloseWebElement(scholarshipPopUpWindowCloseWebElement);
         getScholarshipPopUpWindowCloseWebElement().click();
     }
 
     public static void closePopUpWindow(WebDriver driver1){
+        //TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         CommonAPI.clickOnElement(".fa.fa-times-circle-o",driver1);
     }
     public void handlePopUpWindowBeforeLogIn(WebDriver driver1)throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         CommonAPI.sleepFor(2);
         if(isScholarshipPopUpWindowDisplayed(driver1, ".modal-body")) {
 

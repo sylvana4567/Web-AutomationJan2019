@@ -1,4 +1,5 @@
-authentication/LogInPage.class
 searchpage/SearchPage.class
+authentication/LogInPage.class
 authentication/popup/HandlePopUp.class
 keyword/ItemsToBeSearched.class
+keyword/Features.class

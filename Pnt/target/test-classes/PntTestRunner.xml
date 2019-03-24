@@ -14,8 +14,8 @@
     <test name = "Pnt Forum">
         <classes>
             <!--<class name="authentication.TestAuthentication"/>-->
-            <!--<class name="authentication.TestPopUpWindow"/>-->
-            <class name="authentication.TestKeyword"/>
+            <class name="authentication.TestPopUpWindow"/>
+            <!--<class name="authentication.TestKeyword"/>-->
         </classes>
     </test>
 

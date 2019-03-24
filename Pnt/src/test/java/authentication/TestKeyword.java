@@ -4,7 +4,6 @@ import base.CommonAPI;
 import keyword.Features;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import sun.jvm.hotspot.debugger.Page;
 
 import java.io.IOException;
 
