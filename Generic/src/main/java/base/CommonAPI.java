@@ -2,6 +2,7 @@ package base;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -35,6 +36,12 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
+    //WebDriver Instance
+    public static WebDriver driver = null;
+    public String browserstack_username= "";
+    public String browserstack_accesskey = "";
+    public String saucelabs_username = "";
+    public String saucelabs_accesskey = "";
    //Extent Report Listener
    public static ExtentReports extent;
     @BeforeSuite
@@ -88,12 +95,6 @@ public class CommonAPI {
         return calendar.getTime();
     }
 
-    //WebDriver Instance
-    public static WebDriver driver = null;
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
@@ -266,7 +267,7 @@ public class CommonAPI {
 
     public static String convertToString(String st) {
         String splitString = "";
-        //splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
 
